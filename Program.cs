@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Shane Frantz
+// .NET Programming CPSC-23000
+// This program is used to calculate the volumes of cubes and spheres based off of user inputted variables
+
+using System;
 
 namespace HW1
 {
