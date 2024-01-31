@@ -8,3 +8,13 @@ C:\Users\shane\Desktop\Software Work\NETHW1_SF\bin\Debug\netcoreapp2.0\NETHW1_SF
 C:\Users\shane\Desktop\Software Work\NETHW1_SF\bin\Debug\netcoreapp2.0\NETHW1_SF.pdb
 C:\Users\shane\Desktop\Software Work\NETHW1_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.dll
 C:\Users\shane\Desktop\Software Work\NETHW1_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.pdb
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW1_SF.deps.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW1_SF.runtimeconfig.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW1_SF.runtimeconfig.dev.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW1_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW1_SF.pdb
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.csproj.CoreCompileInputs.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.AssemblyInfoInputs.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.AssemblyInfo.cs
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW1_SF.pdb

@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shane\\Desktop\\Software Work\\NETHW1_SF\\NETHW1_SF.csproj",
-      "projectName": "NETHW1_SF",
-      "projectPath": "C:\\Users\\shane\\Desktop\\Software Work\\NETHW1_SF\\NETHW1_SF.csproj",
+      "projectUniqueName": "C:\\Users\\shane\\Desktop\\Software Work\\NETHW_SF\\NETHW_SF.csproj",
+      "projectName": "NETHW_SF",
+      "projectPath": "C:\\Users\\shane\\Desktop\\Software Work\\NETHW_SF\\NETHW_SF.csproj",
       "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shane\\Desktop\\Software Work\\NETHW1_SF\\obj\\",
+      "outputPath": "C:\\Users\\shane\\Desktop\\Software Work\\NETHW_SF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

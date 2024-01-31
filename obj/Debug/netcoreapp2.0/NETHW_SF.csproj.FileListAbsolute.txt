@@ -1,0 +1,10 @@
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW_SF.deps.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW_SF.runtimeconfig.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW_SF.runtimeconfig.dev.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\netcoreapp2.0\NETHW_SF.pdb
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW_SF.csproj.CoreCompileInputs.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW_SF.AssemblyInfoInputs.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW_SF.AssemblyInfo.cs
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\netcoreapp2.0\NETHW_SF.pdb
