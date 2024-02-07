@@ -1,102 +1,145 @@
 ﻿// Shane Frantz
 // .NET Programming CPSC-23000
-// This program is used to calculate how many gallons of paint and primer is needed to paint a house
-// Given certain dimensions of the house and parameters about the paint/primer
+// This program is used to read a store inventory from a .txt file and allow the user to make purchases 
+// The program keeps a running total of the cost and items that they have selected
 
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Globalization;
 
-namespace HW2 {
+namespace FrantzStorefront {
     class Program {
         static void Main() {
-            // Amount of square feet a gallon of paint and primer will cover per gallon
-            const int paintPerGallon = 400;
-            const int primerPerGallon = 250;
+            // Creating Hashmaps to store the inventory of the store and the user's cart
+            // Allows for O(1) lookup as opposed to an array which would be O(N)
+            Dictionary<string, decimal> storeInventory = new Dictionary<string, decimal>();
+            Dictionary<string, int> cart = new Dictionary<string, int>();
 
-            // Running total of required area to be painted and primed
-            double paintArea = 0;
-            double primeArea = 0;
+            // Allows us to easily change # of *s in the header evenly on top and bottom
+            string headerLine = "************************************************";
 
             // Printing header
-            Console.WriteLine("********************************************************************\n\t\t\tHOUSE PAINTER V1.0\n********************************************************************");
-            
-            // Using try block to handle bad user inputs
-            try {
-            // Inputting number of rooms
-            Console.Write("\nHow many rooms do you plan to paint? ");
-            int numberOfRooms = int.Parse(Console.ReadLine());
-                // Ask for dimensions of each room
-                for (int i = 1; i <= numberOfRooms; i++) {
-                    Console.WriteLine($"For Room #{i} ...");
+            Console.WriteLine(headerLine);
+            Console.WriteLine("\t\tSTOREFRONT V1.0");
+            Console.WriteLine(headerLine);
 
-                    // Getting length
-                    Console.Write("\tEnter length: ");
-                    double length = double.Parse(Console.ReadLine());
+            // Prompting user for file name
+            Console.Write("Enter name of file: ");
+            string path = Console.ReadLine();
 
-                    // Getting width
-                    Console.Write("\tEnter width: ");
-                    double width = double.Parse(Console.ReadLine());
-
-                    // Getting height
-                    Console.Write("\tEnter height: ");
-                    double height = double.Parse(Console.ReadLine());
-
-                    // Boolean args for painting ceiling and using primer
-                    Console.Write("\tPaint the ceiling? ");
-                    string userInput = Console.ReadLine().Trim().ToLower();
-
-                    // while loop to validate user input
-                    while (userInput != "y" && userInput != "n" && userInput != "yes" && userInput != "no") {
-                        Console.WriteLine("Please enter \"yes\", \"no\", \"y\", or \"n\"");
-                        userInput = Console.ReadLine().Trim().ToLower();
-                    }
-
-                    // Sets paintCeiloing after userInput has been validated
-                    bool paintCeiling = userInput == "yes" || userInput == "y";
-
-                    Console.Write("\tUse primer? ");
-                    userInput = Console.ReadLine().Trim().ToLower();
-                    // while loop to validate user input
-                    while (userInput != "y" && userInput != "n" && userInput != "yes" && userInput != "no") {
-                        Console.WriteLine("Please enter \"yes\", \"no\", \"y\", or \"n\"");
-                        userInput = Console.ReadLine().Trim().ToLower();
-                    }
-
-                    // Sets usePrimer after userInput has been validated
-                    bool usePrimer = userInput == "yes" || userInput == "y";
-
-                    // Calculating total area that needs to be painted/primed all four walls of the room
-                    double areaOfWalls = (length + width) * height * 2;
-                    double areaOfCeiling = length * width;
-
-                    // Add area of the room to the running totals of paint and primer
-                    if (paintCeiling) {
-                        paintArea += (areaOfWalls + areaOfCeiling);
-                    } else {
-                        paintArea += areaOfWalls;
-                    }
-
-                    if (usePrimer) {
-                        if (paintCeiling) {
-                            primeArea += (areaOfWalls + areaOfCeiling);
-                        } else {
-                            primeArea += areaOfWalls;
-                        }
-                    }
-                }
-
-                // Calculating number of gallons of paint and primer needed
-                double paintGallons = paintArea / paintPerGallon;
-                double primerGallons = primeArea / primerPerGallon;
-
-                // Printing results
-                Console.WriteLine($"\nTo paint {paintArea:F2} square feet,\n\tyou need {paintGallons:F2} gallons of paint.");
-                Console.WriteLine($"To prime {primeArea:F2} square feet,\n\tyou need {primerGallons:F2} gallons of primer.");
-            } catch (Exception e) {
-                Console.WriteLine("Error: " + e.Message);
-            } finally {
-                // Prints goodbye message even if user generated an error (to make them feel better)
-                Console.WriteLine("\nThank you for using this program.");
+            // Exit program if file path is invalid
+            if (!File.Exists(path)) {
+                Console.WriteLine("Error: File path not valid");
+                return;
             }
+
+            // An array to store all lines of the file
+            string[] lines = null;
+
+            // Reading file lines
+            try {
+                lines = File.ReadAllLines(path);
+            } catch (IOException ie) {
+                Console.WriteLine($"Error: IOException: {ie.Message}");
+                return;
+            } catch (Exception e) {
+                Console.WriteLine($"Error: {e.Message}");
+            }
+
+            GetInventory(lines, storeInventory);
+
+            // Logic for purchasing items
+            string userInput = null;
+            do {
+                DisplayItems(storeInventory);
+                Console.Write("Enter your choice: ");
+                userInput = Console.ReadLine();
+
+                // Check if user inputs item not in storeInventory
+                if (!storeInventory.ContainsKey(userInput) && userInput != "quit") {
+                    Console.WriteLine("That item does not exist!");
+                } else if (userInput != "quit") {
+                    // Prompt user for quantity
+                    Console.Write("How many do you want? ");
+                    int quantity;
+                    string quantityInput = Console.ReadLine();
+
+                    // Validating if user entered a valid integer
+                    try {
+                        quantity = int.Parse(quantityInput);
+                        if (quantity < 0) {
+                            Console.WriteLine("Error: Negative quantity entered");
+                            continue;
+                        }
+                    } catch (FormatException) {
+                        Console.WriteLine("Error: Not a valid number");
+                        continue;
+                    } catch (OverflowException) {
+                        Console.WriteLine("Error: Number too large");
+                        continue;
+                    }
+
+                    // Adding valid item to cart
+                    if (cart.ContainsKey(userInput)) {
+                        cart[userInput] += quantity;
+                    } else {
+                        cart[userInput] = quantity;
+                    }
+                } 
+            } while (userInput != "quit");
+
+            DisplayTotal(cart, storeInventory);
+        }
+
+        // Function that parses the item names and prices out of the array of file lines
+        static void GetInventory(string[] lines, Dictionary<string, decimal> storeInventory) {
+            foreach (var line in lines) {
+
+                // Gets the index of the last space in the line so that we know when the price starts
+                int lastSpaceIndex = line.LastIndexOf(' ');
+
+                // Skips empty lines and lines without spaces
+                if (lastSpaceIndex == -1) {
+                    Console.WriteLine($"Skipping incorrectly formatted line: {line}");
+                    continue;
+                }
+                
+                // Storing item name and price substring
+                string itemName = line.Substring(0, lastSpaceIndex);
+                string priceSubstring = line.Substring(lastSpaceIndex + 1);
+
+                // Checks if the priceSubstring is formatted correctly
+                if (decimal.TryParse(priceSubstring, NumberStyles.Currency, CultureInfo.InvariantCulture, out decimal price)) {
+                    // Creating HashMap entry
+                    storeInventory[itemName] = price;
+                } else {
+                    Console.WriteLine($"Skipping incorrectly formatted line: {line}");
+                }
+            }
+        }
+
+        // Function to display the store inventory
+        static void DisplayItems(Dictionary<string, decimal> storeInventory) {
+
+            foreach (var item in storeInventory) {
+                Console.WriteLine("{0,-20} {1,10:F2}", item.Key, item.Value);
+            }
+        }
+
+        // Function to display the quantities of what the user bought and the total price
+        static void DisplayTotal(Dictionary<string, int> cart, Dictionary<string, decimal> storeInventory) {
+            Console.WriteLine("\nHere is what you bought:");
+            decimal totalPrice = 0m;
+            // Calculating the price of getting each individual item and adding them all up for the grand total
+            foreach (var item in cart) {
+                decimal itemPrice = item.Value * storeInventory[item.Key];
+                totalPrice += itemPrice;
+                // Printing each item and quantity purchased
+                Console.WriteLine("{0, -20} {1, 10}", item.Key, item.Value);
+            }
+            // Displaying total price
+            Console.WriteLine($"Your total bill is ${totalPrice:F2}");
         }
     }
 }

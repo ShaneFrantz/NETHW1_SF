@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>HW2.Program</StartupObject>
+    <StartupObject>FrantzStorefront.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
