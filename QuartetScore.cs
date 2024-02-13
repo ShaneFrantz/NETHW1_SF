@@ -3,26 +3,26 @@ using System.IO;
 namespace OOP {
     public class QuartetScore {
         private string quartetName;
-        private int musScore; // Musicality score
-        private int perScore; // Performance score
-        private int sngScore; // Singing score
+        private double musScore; // Musicality score
+        private double perScore; // Performance score
+        private double sngScore; // Singing score
 
         public string QuartetName {
             get {return quartetName;}
             set {quartetName = value;}
         }
 
-        public int MusScore {
+        public double MusScore {
             get {return musScore;}
             set {musScore = value;}
         }
 
-        public int PerScore {
+        public double PerScore {
             get {return perScore;}
             set {perScore = value;}
         }
 
-        public int SngScore {
+        public double SngScore {
             get {return sngScore;}
             set {sngScore = value;}
         }
@@ -34,7 +34,7 @@ namespace OOP {
             sngScore = 0;
         }
 
-        public QuartetScore(string quartetName, int musScore, int perScore, int sngScore) {
+        public QuartetScore(string quartetName, double musScore, double perScore, double sngScore) {
             this.quartetName = quartetName;
             this.musScore = musScore;
             this.perScore = perScore;
