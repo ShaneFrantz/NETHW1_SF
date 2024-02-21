@@ -1,3 +1,3 @@
-# NETHW4_SF
+# NETHW5_SF
 
-This program demonstrates basic OOP principles with C#
+This program demonstrates further OOP principles with classes that model a library
