@@ -1,7 +1,6 @@
 ﻿// Shane Frantz
 // .NET Programming CPSC-23000
-// This program is used to demonstrate basic OOP principles in C#
-// Object keeps track of barbershop quartet contest score (quartet name, song name, score for each category)
+// This program demonstrates further OOP principles with classes that model a library
 
 using System;
 using System.IO;
