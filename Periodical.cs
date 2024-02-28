@@ -7,11 +7,11 @@ namespace HW5 {
 
         // Default Constructor
         public Periodical() : base() {
-            PublicationDate = "01-01-1800";
+            PublicationDate = "January 1st, 1800";
         }
 
         // Non default constructor
-        public Periodical(int id, string title, string description, int copyrightYear, string publicationDate) : base(id, title, description, false) {
+        public Periodical(int id, string title, string description, string publicationDate) : base(id, title, description, false) {
             PublicationDate = publicationDate;
         }
 

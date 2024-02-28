@@ -58,13 +58,25 @@ namespace HW5 {
         // Formats data found in SortHoldingsByCheckOutStatus
         public void ListAll() {
             var (checkedOutHoldings, checkedInHoldings) = SortHoldingsByCheckOutStatus();
+
+            Console.WriteLine("\nHere are the library's holdings:");
+
             Console.WriteLine("These holdings are checked out:");
-            foreach (Holding holding in checkedOutHoldings) {
-                Console.WriteLine($"{holding.ID}");
+            if (checkedOutHoldings.Count == 0) {
+                Console.WriteLine("No holdings are checked out.");
+            } else {
+                foreach (Holding holding in checkedOutHoldings) {
+                    Console.WriteLine($"{holding.Title}");
+                }
             }
+
             Console.WriteLine("\nThese holdings are available:");
-            foreach (Holding holding in checkedInHoldings) {
-                Console.WriteLine($"{holding.ID}");
+            if (checkedInHoldings.Count == 0) {
+                Console.WriteLine("No holdings are available");
+            } else {
+                foreach (Holding holding in checkedInHoldings) {
+                    Console.WriteLine($"{holding.Title}");
+                }
             }
         }
 
