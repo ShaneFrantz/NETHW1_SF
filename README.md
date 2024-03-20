@@ -1,3 +1,3 @@
-# NETHW5_SF
+# NETHW7_SF
 
-This program demonstrates further OOP principles with classes that model a library
+This program experiments with creating windows forms and a user interface with an existing OOP class

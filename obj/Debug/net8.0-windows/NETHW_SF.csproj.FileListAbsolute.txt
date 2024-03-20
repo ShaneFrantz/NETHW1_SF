@@ -1,0 +1,15 @@
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.AssemblyInfoInputs.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.AssemblyInfo.cs
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.csproj.CoreCompileInputs.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.sourcelink.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\net8.0-windows\NETHW_SF.exe
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\net8.0-windows\NETHW_SF.deps.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\net8.0-windows\NETHW_SF.runtimeconfig.json
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\net8.0-windows\NETHW_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\bin\Debug\net8.0-windows\NETHW_SF.pdb
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\refint\NETHW_SF.dll
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.pdb
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\NETHW_SF.genruntimeconfig.cache
+C:\Users\shane\Desktop\Software Work\NETHW_SF\obj\Debug\net8.0-windows\ref\NETHW_SF.dll
