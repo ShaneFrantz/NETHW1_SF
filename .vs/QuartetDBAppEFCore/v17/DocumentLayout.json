@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|c:\\users\\shane\\source\\repos\\quartetdbappefcore\\quartetdbappefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|solutionrelative:quartetdbappefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|c:\\users\\shane\\source\\repos\\quartetdbappefcore\\quartetdbappefcore\\quartetscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|solutionrelative:quartetdbappefcore\\quartetscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|c:\\users\\shane\\source\\repos\\quartetdbappefcore\\quartetdbappefcore\\quartetscoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|solutionrelative:quartetdbappefcore\\quartetscoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|c:\\users\\shane\\source\\repos\\quartetdbappefcore\\quartetdbappefcore\\quartetdbappefcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|solutionrelative:quartetdbappefcore\\quartetdbappefcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|c:\\users\\shane\\source\\repos\\quartetdbappefcore\\quartetdbappefcore\\migrations\\quartetscoredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|solutionrelative:quartetdbappefcore\\migrations\\quartetscoredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|c:\\users\\shane\\source\\repos\\quartetdbappefcore\\quartetdbappefcore\\migrations\\20240410014947_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB26B7C-663F-4BB0-A693-5B4B4985D0D8}|QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj|solutionrelative:quartetdbappefcore\\migrations\\20240410014947_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuartetScore.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\QuartetScore.cs",
+              "RelativeDocumentMoniker": "QuartetDBAppEFCore\\QuartetScore.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\QuartetScore.cs",
+              "RelativeToolTip": "QuartetDBAppEFCore\\QuartetScore.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA8wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T17:55:33.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuartetScoreDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\QuartetScoreDBContext.cs",
+              "RelativeDocumentMoniker": "QuartetDBAppEFCore\\QuartetScoreDBContext.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\QuartetScoreDBContext.cs",
+              "RelativeToolTip": "QuartetDBAppEFCore\\QuartetScoreDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T17:55:31.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuartetDBAppEFCore",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj",
+              "RelativeDocumentMoniker": "QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj",
+              "RelativeToolTip": "QuartetDBAppEFCore\\QuartetDBAppEFCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T17:55:29.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240410014947_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\Migrations\\20240410014947_InitialMigration.cs",
+              "RelativeDocumentMoniker": "QuartetDBAppEFCore\\Migrations\\20240410014947_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\Migrations\\20240410014947_InitialMigration.cs",
+              "RelativeToolTip": "QuartetDBAppEFCore\\Migrations\\20240410014947_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T17:55:25.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuartetScoreDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\Migrations\\QuartetScoreDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "QuartetDBAppEFCore\\Migrations\\QuartetScoreDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\Migrations\\QuartetScoreDBContextModelSnapshot.cs",
+              "RelativeToolTip": "QuartetDBAppEFCore\\Migrations\\QuartetScoreDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T17:55:20.674Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +109,7 @@
               "RelativeDocumentMoniker": "QuartetDBAppEFCore\\Program.cs",
               "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetDBAppEFCore\\QuartetDBAppEFCore\\Program.cs",
               "RelativeToolTip": "QuartetDBAppEFCore\\Program.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAowL8AAAAAAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowHUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T00:20:12.086Z",
               "EditorCaption": ""
