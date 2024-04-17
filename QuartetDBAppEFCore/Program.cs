@@ -12,34 +12,8 @@ namespace QuartetDBAppEFCore
             }
         }
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            /*
-            QuartetScoreDBContext context = new QuartetScoreDBContext();
-            context.QuartetScores.RemoveRange(context.QuartetScores.ToList<QuartetScore>());
-            QuartetScore q1 = new QuartetScore(0, "Freelance", 72, 71, 68);
-            context.Add(q1);
-            QuartetScore q2 = new QuartetScore(0, "Three and a Half Men", 95, 93, 94);
-            context.Add(q2);
-            context.SaveChanges();
-            List<QuartetScore> quartetList1 = context.QuartetScores.ToList<QuartetScore>();
-            Console.WriteLine("After first read...");
-            ListQuartetScores(quartetList1);
-            q2.QuartetName = "Quorum";
-            context.SaveChanges();
-            quartetList1 = context.QuartetScores.ToList<QuartetScore>();
-            Console.WriteLine("After changing the second quartet");
-            ListQuartetScores(quartetList1);
-            List<QuartetScore> goodQuartets = context.QuartetScores.Where<QuartetScore>(q => q.SngScore == 94).ToList<QuartetScore>();
-            Console.WriteLine("These are the good quartets");
-            ListQuartetScores(goodQuartets);
-            context.QuartetScores.RemoveRange(goodQuartets);
-            context.SaveChanges();
-            List<QuartetScore> quartetList2 = context.QuartetScores.ToList<QuartetScore>();
-            Console.WriteLine("After removing the good quartets");
-            ListQuartetScores(quartetList2);
-            */
-
             QuartetScoreDBContext context = new QuartetScoreDBContext();
             QuartetScore quartet;
             List<QuartetScore> quartetList;
@@ -48,16 +22,14 @@ namespace QuartetDBAppEFCore
             string headerText = "QUARTET DATABASE";
 
             int choiceNumber;
-            
-
 
             // Printing header
+            Console.WriteLine(headerLine);
+            Console.WriteLine("\t" + headerText);
+            Console.WriteLine(headerLine);
+ 
             while (true)
             {
-                Console.WriteLine(headerLine);
-                Console.WriteLine("\t" + headerText);
-                Console.WriteLine(headerLine);
-
                 // Printing menu
                 Console.WriteLine("What would you like to do?");
                 Console.WriteLine("1. Add a quartet");
@@ -152,20 +124,146 @@ namespace QuartetDBAppEFCore
                         }
 
                         break;
-                    case 2:
+                    case 2: // Listing quartets
                         quartetList = context.QuartetScores.ToList<QuartetScore>();
                         ListQuartetScores(quartetList);
                         break;
-                    case 3:
-                        Console.WriteLine("Option 3");
+                    case 3: // Updating quartet
+                        int quartetID;
+                        QuartetScore quartetToUpdate = null;
+                        quartetList = context.QuartetScores.ToList<QuartetScore>();
+                        Console.Write("Enter the id of the quartet you want to update: ");
+                        while (true)
+                        {
+                            try
+                            {
+                                quartetID = Convert.ToInt32(Console.ReadLine());
+                                quartetToUpdate = await context.QuartetScores.FindAsync(quartetID);
+
+                                if (quartetToUpdate != null)
+                                {
+                                    Console.Write("Enter name of quartet: ");
+                                    quartetName = Console.ReadLine();
+                                    Console.Write("Enter music score: ");
+                                    while (true)
+                                    {
+                                        try
+                                        {
+                                            musScore = Convert.ToInt32(Console.ReadLine());
+                                            if (musScore >= 0 && musScore <= 100) break;
+                                            else Console.Write("Please enter a number between 0-100: ");
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            Console.WriteLine("Error: " + ex.Message);
+                                            Console.Write("Please enter a number between 0-100: ");
+                                        }
+                                    }
+                                    Console.Write("Enter performance score: ");
+                                    while (true)
+                                    {
+                                        try
+                                        {
+                                            perScore = Convert.ToInt32(Console.ReadLine());
+                                            if (perScore >= 0 && perScore <= 100) break;
+                                            else Console.Write("Please enter a number between 0-100: ");
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            Console.WriteLine("Error: " + ex.Message);
+                                            Console.Write("Please enter a number between 0-100: ");
+                                        }
+                                    }
+                                    Console.Write("Enter singing score: ");
+                                    while (true)
+                                    {
+                                        try
+                                        {
+                                            sngScore = Convert.ToInt32(Console.ReadLine());
+                                            if (sngScore >= 0 && sngScore <= 100) break;
+                                            else Console.Write("Please enter a number between 0-100: ");
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            Console.WriteLine("Error: " + ex.Message);
+                                            Console.Write("Please enter a number between 0-100: ");
+                                        }
+                                    }
+
+                                    try
+                                    {
+                                        quartetToUpdate.QuartetName = quartetName;
+                                        quartetToUpdate.MusScore = musScore;
+                                        quartetToUpdate.PerScore = perScore;
+                                        quartetToUpdate.SngScore = sngScore;
+                                        context.SaveChanges();
+                                        Console.WriteLine("Quartet successfully updated.");
+                                        break;
+
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        Console.WriteLine("There was an error updating the quartet in the database: " + ex.Message);
+                                    }
+
+                                    break;
+                                } 
+                                else
+                                {
+                                    Console.WriteLine("That quartet does not exist.");
+                                    break;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Error: " + ex.Message);
+                                Console.Write("Please enter a valid integer: ");
+                            }
+                        }
                         break;
-                    case 4:
-                        Console.WriteLine("Option 4");
+                    case 4: // Removing quartet
+                        Console.Write("Enter the id of the quartet you want to remove: ");
+                        int removeQuartetID;
+                        while (true) {
+                            try
+                            {
+                                removeQuartetID = Convert.ToInt32(Console.ReadLine());
+                                QuartetScore quartetToRemove = await context.QuartetScores.FindAsync(removeQuartetID);
+                                if (quartetToRemove != null)
+                                {
+                                    context.QuartetScores.Remove(quartetToRemove);
+                                    context.SaveChanges();
+                                    Console.WriteLine("Quartet succesfully removed.");
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("That quartet does not exist.");
+                                    break;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Error: " + ex.Message);
+                                Console.Write("Please enter a valid integer: ");
+                            }
+                        }
                         break;
-                    case 5:
-                        Console.WriteLine("Option 5");
+                    case 5: // Removing all quartets
+                        try 
+                        {
+                            context.QuartetScores.RemoveRange(context.QuartetScores.ToList<QuartetScore>());
+                            context.SaveChanges();
+                            Console.WriteLine("Database successfully cleared.");
+                            break;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Error: " + ex.Message);
+                        }
+
                         break;
-                    case 6:
+                    case 6: // Exiting program
                         Console.WriteLine("Thank you for using this program!");
                         System.Environment.Exit(0);
                         break;

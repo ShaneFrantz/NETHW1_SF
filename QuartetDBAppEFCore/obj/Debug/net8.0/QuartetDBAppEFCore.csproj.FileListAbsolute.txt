@@ -128,3 +128,4 @@ C:\Users\shane\source\repos\QuartetDBAppEFCore\QuartetDBAppEFCore\obj\Debug\net8
 C:\Users\shane\source\repos\QuartetDBAppEFCore\QuartetDBAppEFCore\obj\Debug\net8.0\QuartetDBAppEFCore.pdb
 C:\Users\shane\source\repos\QuartetDBAppEFCore\QuartetDBAppEFCore\obj\Debug\net8.0\QuartetDBAppEFCore.genruntimeconfig.cache
 C:\Users\shane\source\repos\QuartetDBAppEFCore\QuartetDBAppEFCore\obj\Debug\net8.0\ref\QuartetDBAppEFCore.dll
+C:\Users\shane\source\repos\QuartetDBAppEFCore\QuartetDBAppEFCore\obj\Debug\net8.0\QuartetDBAppEFCore.sourcelink.json

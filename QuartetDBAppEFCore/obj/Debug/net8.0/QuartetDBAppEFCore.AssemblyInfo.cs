@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuartetDBAppEFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12398b7b14ce926a45f9143624d682610908e79e")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuartetDBAppEFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuartetDBAppEFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
