@@ -1,0 +1,53 @@
+﻿@model List<QuartetScore>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Quartet Name
+            </th>
+            <th>
+                Music Score
+            </th>
+            <th>
+                Performance Score
+            </th>
+            <th>
+                Singing Score
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.QuartetName
+                    </td>
+                    <td>
+                        @item.MusScore
+                    </td>
+                    <td>
+                        @item.PerScore
+                    </td>
+                    <td>
+                        @item.SngScore
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        } else
+        {
+            <h1>No quartet scores yet</h1>
+        }
+    </tbody>
+</table>

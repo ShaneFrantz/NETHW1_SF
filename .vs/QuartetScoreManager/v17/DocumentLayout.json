@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\controllers\\quartetscorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\controllers\\quartetscorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\quartetscores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\quartetscores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\quartetscores\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\quartetscores\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\quartetscores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\quartetscores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\quartetscores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\quartetscores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\quartetscores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\quartetscores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\models\\quartetscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\models\\quartetscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\databases\\quartetscoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\databases\\quartetscoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\quartetscoremanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\quartetscoremanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|c:\\users\\shane\\source\\repos\\quartetscoremanager\\quartetscoremanager\\migrations\\20240507223648_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08599A-A462-406A-B790-4FFFAB030643}|QuartetScoreManager\\QuartetScoreManager.csproj|solutionrelative:quartetscoremanager\\migrations\\20240507223648_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "QuartetScoreManager\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T00:49:47.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\appsettings.Development.json",
+              "RelativeToolTip": "QuartetScoreManager\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T00:45:48.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T00:45:36.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T00:45:34.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T00:45:33.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\QuartetScores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Delete.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\QuartetScores\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T00:25:25.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\QuartetScores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Edit.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\QuartetScores\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T00:23:33.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Create.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\QuartetScores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Create.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\QuartetScores\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T00:07:43.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\QuartetScores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Index.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\QuartetScores\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T23:51:18.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuartetScoresController.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Controllers\\QuartetScoresController.cs",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Controllers\\QuartetScoresController.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Controllers\\QuartetScoresController.cs",
+              "RelativeToolTip": "QuartetScoreManager\\Controllers\\QuartetScoresController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:58:25.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240507223648_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Migrations\\20240507223648_InitialCreate.cs",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Migrations\\20240507223648_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Migrations\\20240507223648_InitialCreate.cs",
+              "RelativeToolTip": "QuartetScoreManager\\Migrations\\20240507223648_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:36:49.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Program.cs",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Program.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Program.cs",
+              "RelativeToolTip": "QuartetScoreManager\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:20:50.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\appsettings.json",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\appsettings.json",
+              "RelativeToolTip": "QuartetScoreManager\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-07T22:17:45.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuartetScoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Databases\\QuartetScoreDbContext.cs",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Databases\\QuartetScoreDbContext.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Databases\\QuartetScoreDbContext.cs",
+              "RelativeToolTip": "QuartetScoreManager\\Databases\\QuartetScoreDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:14:28.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuartetScoreManager.csproj",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\QuartetScoreManager.csproj",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\QuartetScoreManager.csproj",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\QuartetScoreManager.csproj",
+              "RelativeToolTip": "QuartetScoreManager\\QuartetScoreManager.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T22:11:25.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuartetScore.cs",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Models\\QuartetScore.cs",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Models\\QuartetScore.cs",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Models\\QuartetScore.cs",
+              "RelativeToolTip": "QuartetScoreManager\\Models\\QuartetScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:39:36.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\QuartetScores\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\QuartetScores\\Privacy.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\QuartetScores\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T21:33:11.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T21:33:10.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "QuartetScoreManager\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\shane\\source\\repos\\QuartetScoreManager\\QuartetScoreManager\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "QuartetScoreManager\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T21:33:08.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

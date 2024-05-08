@@ -1,0 +1,29 @@
+﻿@model QuartetScore
+
+<h1>Create</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="QuartetName" class="control-label"></label>
+        <input asp-for="QuartetName" class="form-control" />
+        <span asp-validation-for="QuartetName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MusScore" class="control-label"></label>
+        <input asp-for="MusScore" class="form-control" />
+        <span asp-validation-for="MusScore" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PerScore" class="control-label"></label>
+        <input asp-for="PerScore" class="form-control" />
+        <span asp-validation-for="PerScore" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SngScore" class="control-label"></label>
+        <input asp-for="SngScore" class="form-control" />
+        <span asp-validation-for="SngScore" class="text-danger"></span>
+    </div>
+    <div>
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
